@@ -57,12 +57,15 @@ button {
 }
 .btn-sedans {
   color: var(--bright-orange);
+  border: 2px solid var(--bright-orange);
 }
 .btn-suv {
   color: var(--dark-cyan);
+  border: 2px solid var(--dark-cyan);
 }
 .btn-luxury {
   color: var(--very-dark-cyan);
+  border: 2px solid var(--very-dark-cyan);
 }
 /* Greater than 375px? another styling... that's it!*/
 @media screen and (min-width: 376px) {
@@ -86,5 +89,11 @@ button {
   }
   .card:nth-child(3) {
     border-radius: 0px 10px 10px 0px;
+  }
+  button:active {
+    border: 2px solid var(--transparent-white);
+    background: none;
+    color: var(--transparent-white);
+    cursor: pointer;
   }
 }
