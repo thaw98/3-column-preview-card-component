@@ -54,6 +54,7 @@ button {
   border-radius: 30px;
   border: none;
   width: 150px;
+  background-color: var(--very-light-gray);
 }
 .btn-sedans {
   color: var(--bright-orange);
@@ -91,9 +92,9 @@ button {
     border-radius: 0px 10px 10px 0px;
   }
   button:active {
-    border: 2px solid var(--transparent-white);
+    border: 2px solid var(--very-light-gray);
     background: none;
-    color: var(--transparent-white);
+    color: var(--very-light-gray);
     cursor: pointer;
   }
 }
