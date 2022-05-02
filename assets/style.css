@@ -55,6 +55,7 @@ button {
   border: none;
   width: 150px;
   background-color: var(--very-light-gray);
+  transition: 0.5s;
 }
 .btn-sedans {
   color: var(--bright-orange);
@@ -92,7 +93,7 @@ button {
   .card:nth-child(3) {
     border-radius: 0px 10px 10px 0px;
   }
-  button:active {
+  button:hover {
     border: 2px solid var(--very-light-gray);
     background: none;
     color: var(--very-light-gray);
