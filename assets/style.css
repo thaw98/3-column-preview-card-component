@@ -72,6 +72,7 @@ button {
 @media screen and (min-width: 376px) {
   body {
     max-width: 1440px;
+    background-color: var(--very-light-gray);
   }
   .container {
     margin: 7% auto;
